@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/default.css">
+        <title>ITIS3135 | Kashyap Patel's Kingly Parrot | Arrays</title>
+    </head>
+
+    <body>
+
+        <hr>
+
+        <script src="scripts/header.js"></script>
+
+        <main>
+
+            <script src = "scripts/arrays.js"></script>
+
+            <h2 style="font-size: 170%;">Arrays</h2>
+
+            <br>
+
+            <label class="arrName" style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; margin-top: 6px; margin-bottom: 16px; resize: vertical;">Enter Name: <input type="text" id="name"  required></label>
+
+            <br>
+
+            <label class="arrSal" style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; margin-top: 6px; margin-bottom: 16px; resize: vertical;">Enter Salary: <input type="number" id="salary" style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; margin-top: 6px; margin-bottom: 16px; resize: vertical;" required></label>
+
+            <br>
+
+            <button onclick="addSalary()">Add Salary</button>
+
+            <button onclick="displayResults()">Display Results</button>
+
+            <button onclick="displaySalary()">Display Salary</button>
+
+            <form class="arrNameList">
+                <select id = "myList">
+                <option>Select Employee Name:</option>
+                <option>All Employees</option>
+                <option>Kash</option>
+                <option>Tony</option>
+                <option>Bruce</option>
+                <option>Thanos</option>
+                <option>Goku</option>
+                </select>
+            </form>
+
+            <div id = "results" style="text-align: center;"></div>
+
+            <br>
+
+            <table id = "results_table" style="text-align: center; margin-left: auto; margin-right: auto; height: 20%; width: 55%; border: 1px solid black; border-collapse: collapse; text-align: center; color: #F4AC45;"></table>
+            <div id = "add" style="text-align: center;"> </div>
+
+            <br>
+            <br>
+
+        </main>
+        
+        <script src="scripts/footer.js"></script>
+
+    </body>
+
+</html>

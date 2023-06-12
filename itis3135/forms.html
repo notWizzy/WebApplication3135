@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/default.css">
+        <title>ITIS3135 | Kashyap Patel's Kingly Parrot | HTML Forms</title>
+
+    </head>
+
+    <body>
+
+        <!-- <header>
+            
+            <h1>
+                ITIS3135 | Kashyap Patel
+            </h1>
+
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="introduction.html">Introduction</a> |
+                <a href=tables.html>HTML Tables</a> |
+                <a href=forms.html>HTML Forms</a> |
+                <a href="stuff/ KRAPPYCRAPPYWE.htm">Crappy Website</a> |
+                <a href="website_evaluations.html">Website Evaluation</a> |
+                <a href="firstscript.html">First Script</a> |
+                <a href="">Calculator</a> |
+                <a href="">Polygons</a> |
+            </nav>
+
+        </header> -->
+
+        <script src="scripts/header.js"></script>
+
+        <main>
+
+            <hr>
+
+            <br>
+
+            <h2>Store Membership Form</h2>
+
+            <div class="container">
+
+                <form action="#">
+
+                    <label for="firstname" style="font-size: large;">First Name</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name" size="50" required>
+
+                    <br>
+                    <br>
+                    
+
+                    <label for="lastname" style="font-size: large;">Last Name</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Last Name" size="50" required>
+
+                    <br>
+                    <br>
+
+                    <label for="email" style="font-size: large;">Email</label>
+                    <input type="email" id="email" name="email" placeholder="ex: yourmail@gmail.com" size="50" required>
+
+                    <label for="phonenumber" style="font-size: large; margin-left: 4%;">Phone Number</label>
+                    <input type="number" id="phonenumber" name="phonenumber" placeholder="9999999999" minlength="10" maxlength="10" required>
+
+                    <br>
+                    <br>
+
+                    <p style="font-size: large;">Gender</p>
+                    <input type="radio" id="male" name="male" value="male">
+                    <label for="female">Male</label>
+                    <input type="radio" id="female" name="female" value="female">
+                    <label for="female">Female</label>
+
+                    <br>
+                    <br>
+                    <br>
+
+                    <label for="membership" style="font-size: large;">Membership</label>
+                    <select id="membership" name="membership">
+
+                        <option value="coupons">Free</option>
+                        <option value="newsletters">Premium</option>
+                        <option value="both">VIP</option>
+
+                    </select>
+
+                    <p style="font-size: large;">Concent</p>
+                    <input type="checkbox" id="consent" name="consent" value="consent" required>
+                    <label for="consent">I have read the Tearms and Conditions and AGREE TO ALL</label>
+
+                    <br>
+                    <br>
+
+                    <div class="resButton"><input type="reset" value="Reset"></div>
+                    
+                    <br>
+
+                    <div class="subButton"><input type="submit" value="Submit"></div>
+
+                </form>
+
+            </div>
+
+        </main>
+
+        <script src="scripts/footer.js"></script>
+    
+    </body>
+
+</html>
